@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bish Essentials & Bish Creatives</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>BISH</h1>
+    <nav>
+      <a href="#essentials">Essentials</a>
+      <a href="#creatives">Creatives</a>
+    </nav>
+  </header>
+
+  <!-- ESSENTIALS -->
+  <section id="essentials">
+    <h2>Bish Essentials</h2>
+    <p>Affordable, aesthetic everyday items for your desk, your bag and your room.</p>
+
+    <div class="grid">
+      <div class="card">
+        <img src="images/cup3.jpg" alt="Pink 3-in-1 cup with two bottles">
+        <h3>3-in-1 cup with bottle</h3>
+        <p>₦12,000</p>
+        <button class="btn" onclick="orderNow('3-in-1 cup with bottle')">Order on WhatsApp</button>
+      </div>
+
+      <div class="card">
+        <img src="images/stanley.jpg" alt="Insulated tumblers">
+        <h3>Stanley-style tumbler</h3>
+        <p>₦14,000</p>
+        <button class="btn" onclick="orderNow('Stanley-style tumbler')">Order on WhatsApp</button>
+      </div>
+
+      <div class="card">
+        <img src="images/straw.jpg" alt="Studded straw cups">
+        <h3>Studded straw cup</h3>
+        <p>₦4,000</p>
+        <button class="btn" onclick="orderNow('Studded straw cup')">Order on WhatsApp</button>
+      </div>
+
+      <div class="card">
+        <img src="images/headset.jpg" alt="Pink and blue wireless headset">
+        <h3>Wireless headset</h3>
+        <p>₦14,000</p>
+        <button class="btn" onclick="orderNow('Wireless headset')">Order on WhatsApp</button>
+      </div>
+
+      <div class="card">
+        <img src="images/selfie.jpg" alt="Pink selfie stick with tripod">
+        <h3>Selfie stick tripod</h3>
+        <p>Ask for price</p>
+        <button class="btn" onclick="orderNow('Selfie stick tripod')">Order on WhatsApp</button>
+      </div>
+
+      <div class="card">
+        <img src="images/pens.jpg" alt="Blue mesh pen holder">
+        <h3>Mesh desk organiser</h3>
+        <p>₦7,000</p>
+        <button class="btn" onclick="orderNow('Mesh desk organiser')">Order on WhatsApp</button>
+      </div>
+    </div>
+
+    <p>
+      <a class="btn" href="https://wa.me/c/2349124989075">See the full WhatsApp catalogue</a>
+    </p>
+  </section>
+
+  <!-- ASK WITH A PICTURE -->
+  <section id="picture" class="pink-box">
+    <h2>Saw something you like?</h2>
+    <p>Tap the button, then attach your picture in WhatsApp and send.</p>
+    <button class="btn" onclick="askWithPicture()">Ask with a picture</button>
+  </section>
+
+  <!-- CREATIVES -->
+  <section id="creatives">
+    <h2>Bish Creatives</h2>
+    <p>Graphic design for brands that want to look as good as what they sell.</p>
+
+    <div class="grid">
+      <div class="card">
+        <img src="images/serum.jpg" alt="Bish Glows serum advert">
+        <h3>Bish Glows serum</h3>
+      </div>
+      <div class="card">
+        <img src="images/jewel.jpg" alt="Bish Jewelry banner">
+        <h3>Bish Jewelry banner</h3>
+      </div>
+      <div class="card">
+        <img src="images/aura.jpg" alt="Auraganza perfume advert">
+        <h3>Auraganza</h3>
+      </div>
+    </div>
+
+    <button class="btn" onclick="askForDesign()">Message on WhatsApp</button>
+  </section>
+
+  <footer>
+    <p>Follow <a href="https://www.instagram.com/bishcreatives">@bishcreatives</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
